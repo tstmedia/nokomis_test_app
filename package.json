@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "./server.js",
   "dependencies": {
-    "nokomis":"*",
+    "nokomis":"git://github.com/tstmedia/nokomis.git",
     "handlebars":"*",
     "hbs":"*",
     "extendable":"*",
