@@ -8,8 +8,8 @@ var HBTmpl = module.exports = Templating.extend({
   initialize: function(config) {
     HBTmpl.__super__.initialize.apply(this, arguments)
     this.tmpl.engine = Handlebars
-    tmpl.extension = 'hb'
-    tmpl.preload()
+    this.tmpl.extension = 'hb'
+    this.tmpl.preload()
   }
 
 })
